@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+.banner-img {
+    object-fit: cover;
+    width: 85%;
+}
+
+.banner-section-left {
+    width: 40%;
+}
+
+.logo-sectins {
+    margin-bottom: 35px;
+}
+
+.banner-head {
+    margin-bottom: 15px;
+}
+
+.banner-buttens {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.banner-buttensshopnow {
+    background-color: #2b622f;
+    padding: 10px 20px;
+    width: max-content;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.banner-shoponwhatsapp {
+    background-color: #2b622f;
+    padding: 8px 15px;
+    width: max-content;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.whatsapp-img {
+    width: 28px;
+    margin-right: 10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+
+}
+
+.logo::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 21%;
+    width: 60%;
+    height: 3px;
+    background: white;
+    border-radius: 50%;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.logo::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 21%;
+    width: 60%;
+    height: 3px;
+    background: white;
+    border-radius: 50%;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.card-section {
+    margin: 160px 0px;
+}
+
+.mediaImg {
+    border-top: 10px solid #2b622f;
+    border-bottom: 10px solid #2b622f;
+}
+
+.product-section {
+    background-image: url('../../public/assets/images/BG-Pattern.png');
+}
+
+.productbenifits {
+    background-color: #2b622f;
+}
+
+.arrow-main {
+    background-color: #2b622f;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footer-main {
+    border-bottom: 20px solid #65981f;
+}
+
+.social-media {
+    list-style-type: none;
+}
+
+.social-media li {
+    background-color: rgb(59, 57, 57);
+}
+
+.phone-icon {
+    list-style-type: none;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+    border-radius:30px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.card-content h2 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+
+.banner-buttensshopnow:hover {
+    background-color: #39793e;
+    transition: background-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.banner-shoponwhatsapp:hover {
+    background-color: #39793e;
+    transition: background-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.readmore:hover {
+    background-color: #39793e;
+    transition: background-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.socisl-media:hover{
+    background-color: #65981f;
+    cursor: pointer;
+    transition: all 0.4s;
+}
